@@ -20,7 +20,7 @@ export default function Home({ isLoggedIn, betslip, setBetslip }) {
             updated.push({
                 id: match.id + outcome,
                 matchId: match.id,
-                label: `${match.home} vs ${match.away} (${match.outcome})`,
+                label: `${match.home} vs ${match.away} (${outcome})`,
                 odd
             });
             return updated;
