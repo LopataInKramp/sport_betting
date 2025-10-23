@@ -1,0 +1,10 @@
+services:
+  cockroachdb:
+    build: ./cockroach
+    container_name: cockroachdb
+    ports:
+      - "26257:26257"
+      - "8080:8080"
+    volumes:
+      - ./cockroach/cockroach-data:/cockroach/cockroach-data
+    command: start-single-node --insecure --store=/cockroach-data

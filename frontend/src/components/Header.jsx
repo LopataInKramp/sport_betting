@@ -18,8 +18,8 @@ export default function Header({ isLoggedIn, handleLogout }) {
             <div>
                 {isLoggedIn ? (
                     <>
-                    <button onClick={() => navigate("/user")}>Account</button>
-                    <button onClick={onLogut} className="logout-btn">Logout</button>
+                        <button onClick={() => navigate("/user")}>Account</button>
+                        <button onClick={onLogut} className="logout-btn">Logout</button>
                     </>
                 ) : (
                     <button onClick={() => navigate("/login")} className="login-btn">Login</button>

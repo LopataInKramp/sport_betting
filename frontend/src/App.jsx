@@ -10,17 +10,16 @@ import './App.css'
 function App() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [betslip, setBetslip] = useState([]);
-    const [userData, setUserData] = useState({
-        name: "asdada",
-        email: "asdada@ok.com",
-        pasword: "123",
-        balance: 100.0,
-    });
+    const [user, setUser] = useState(() => JSON.parse(localStorage.getItem("user")) || null);
+
 
 
     const handleLogout = () => {
         setIsLoggedIn(false);
         setBetslip([]);
+        localStorage.removeItem("user");
+        localStorage.removeItem("token");
+        setUser(null);
     }
 
 
@@ -31,8 +30,8 @@ function App() {
             <Header isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
             <Routes>
                 <Route path="/" element={<Home isLoggedIn={isLoggedIn} betslip={betslip} setBetslip={setBetslip}  />} />
-                <Route path="/login" element={<Login onLogin={handleLogin} isLoggedIn={isLoggedIn} />} />
-                <Route path="/user" element={<User userData={userData} setUserData={setUserData} />} />
+                <Route path="/login" element={<Login onLogin={handleLogin} isLoggedIn={! !user} />} />
+                {/* <Route path="/user" element={<User userData={userData} setUserData={setUserData} />} /> */}
                 <Route path="*" element={<Navigate to={"/"}/>} />
             </Routes>
         </Router>
