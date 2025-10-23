@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="defaultdb@localhost">
+  <database-model serializer="dbm" dbms="COCKROACH" family-id="COCKROACH" format-version="4.53">
+    <root id="1">
+      <DateStyle>mdy</DateStyle>
+      <Grants>1||1546506610|c|G
+1||2310524507|c|G
+100||1546506610|4|G
+100||2310524507|4|G
+100||-9223372036854775808|c|G
+102||1546506610|4|G
+102||2310524507|4|G
+102||-9223372036854775808|c|G</Grants>
+      <ServerVersion>25.3.3</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="defaultdb">
+      <Current>1</Current>
+      <Grants>101||1546506610|4|G
+101||2310524507|4|G
+101||-9223372036854775808|C|G
+101||-9223372036854775808|U|G
+4294966964||-9223372036854775808|U|G
+4294967094||-9223372036854775808|U|G
+4294967181||-9223372036854775808|U|G
+4294967295||-9223372036854775808|U|G</Grants>
+      <ObjectId>100</ObjectId>
+      <OwnerName>root</OwnerName>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>102</ObjectId>
+      <OwnerName>root</OwnerName>
+    </database>
+    <database id="4" parent="1" name="system">
+      <ObjectId>1</ObjectId>
+      <OwnerName>node</OwnerName>
+    </database>
+    <role id="5" parent="1" name="admin">
+      <CanLogin>1</CanLogin>
+      <ObjectId>2310524507</ObjectId>
+    </role>
+    <role id="6" parent="1" name="node">
+      <ObjectId>3233629770</ObjectId>
+    </role>
+    <role id="7" parent="1" name="root">
+      <CanLogin>1</CanLogin>
+      <ObjectId>1546506610</ObjectId>
+      <RoleGrants>2310524507!</RoleGrants>
+    </role>
+    <schema id="8" parent="2" name="crdb_internal">
+      <ObjectId>4294967295</ObjectId>
+      <OwnerName>node</OwnerName>
+    </schema>
+    <schema id="9" parent="2" name="information_schema">
+      <ObjectId>4294967181</ObjectId>
+      <OwnerName>node</OwnerName>
+    </schema>
+    <schema id="10" parent="2" name="pg_catalog">
+      <ObjectId>4294967094</ObjectId>
+      <OwnerName>node</OwnerName>
+    </schema>
+    <schema id="11" parent="2" name="pg_extension">
+      <ObjectId>4294966964</ObjectId>
+      <OwnerName>node</OwnerName>
+    </schema>
+    <schema id="12" parent="2" name="public">
+      <Current>1</Current>
+      <Grants>105||1546506610|4|G
+105||2310524507|4|G</Grants>
+      <LastIntrospectionLocalTimestamp>2025-10-23.17:17:12</LastIntrospectionLocalTimestamp>
+      <ObjectId>101</ObjectId>
+      <OwnerName>root</OwnerName>
+    </schema>
+    <table id="13" parent="12" name="users">
+      <DetailsLevel>2</DetailsLevel>
+      <ObjectId>105</ObjectId>
+      <OwnerName>root</OwnerName>
+    </table>
+    <column id="14" parent="13" name="id">
+      <DefaultExpression>gen_random_uuid()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>uuid|0s</StoredType>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="15" parent="13" name="name">
+      <Position>2</Position>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="16" parent="13" name="password">
+      <Position>3</Position>
+      <StoredType>text|0s</StoredType>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="17" parent="13" name="balance">
+      <DefaultExpression>0</DefaultExpression>
+      <Position>4</Position>
+      <StoredType>numeric|0s</StoredType>
+      <TypeId>1700</TypeId>
+    </column>
+    <index id="18" parent="13" name="users_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>737994181</ObjectId>
+      <Primary>1</Primary>
+      <Unique>1</Unique>
+    </index>
+  </database-model>
+</dataSource>
