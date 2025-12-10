@@ -22,7 +22,10 @@ export default function Header({ isLoggedIn, handleLogout }) {
                         <button onClick={onLogut} className="logout-btn">Logout</button>
                     </>
                 ) : (
-                    <button onClick={() => navigate("/login")} className="login-btn">Login</button>
+                    <>
+                        <button onClick={() => navigate("/signup")} className="signup-btn">Sign Up</button>
+                        <button onClick={() => navigate("/login")} className="login-btn">Login</button>
+                    </>
                 )}
             </div>
         </header>
