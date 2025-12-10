@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="smal commit">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/SignUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Header.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Header.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Home.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Home.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Login.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Login.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/SignUp.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/SignUp.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/auth.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/utils.bets.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/utils.bets.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/utils/bets.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/bets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/vitest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vitest.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +54,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,31 +65,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/signup&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#1 on feature/signup",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;cockroach&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "cockroach",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Klemen\WebstormProjects\sport_betting\frontend\src" />
@@ -122,7 +135,8 @@
       <workItem from="1764772710140" duration="539000" />
       <workItem from="1764773262330" duration="61000" />
       <workItem from="1764773572674" duration="103000" />
-      <workItem from="1764773692526" duration="326000" />
+      <workItem from="1764773692526" duration="1032000" />
+      <workItem from="1765380833235" duration="7420000" />
     </task>
     <task id="LOCAL−00001" summary="nekaj">
       <option name="closed" value="true" />

@@ -63,6 +63,7 @@ export default function Login({ onLogin, isLoggedIn }) {
                 />
                 <button type="submit" className="login-btn">Login</button>
             </form>
+            {error && <div role="alert" style={{ color: 'red', marginTop: 8 }}>{error}</div>}
         </div>
     );
 
