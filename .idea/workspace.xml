@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="smal commit">
+    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="CI">
       <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Header.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Header.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Home.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Home.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/Login.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/Login.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/SignUp.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/SignUp.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/auth.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/auth.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/__tests__/utils.bets.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/__tests__/utils.bets.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/bets.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/bets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vitest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vitest.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +122,7 @@
       <workItem from="1764773262330" duration="61000" />
       <workItem from="1764773572674" duration="103000" />
       <workItem from="1764773692526" duration="1032000" />
-      <workItem from="1765380833235" duration="7420000" />
+      <workItem from="1765380833235" duration="7736000" />
     </task>
     <task id="LOCAL−00001" summary="nekaj">
       <option name="closed" value="true" />
@@ -166,7 +152,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1761242506504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="CI">
+      <option name="closed" value="true" />
+      <created>1765392856457</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1765392856457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +186,8 @@
     <MESSAGE value="nekaj" />
     <MESSAGE value="userPage" />
     <MESSAGE value="smal commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="smal commit" />
+    <MESSAGE value="CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="CI" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
