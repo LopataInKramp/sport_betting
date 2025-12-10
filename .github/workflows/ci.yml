@@ -37,7 +37,7 @@ jobs:
           if [ ! -d backend/coverage ]; then mkdir -p backend/coverage && echo "no-coverage" > backend/coverage/empty.txt; fi
 
       - name: Upload backend coverage artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: backend-coverage
           path: backend/coverage
@@ -57,7 +57,7 @@ jobs:
           if [ ! -d frontend/coverage ]; then mkdir -p frontend/coverage && echo "no-coverage" > frontend/coverage/empty.txt; fi
 
       - name: Upload frontend coverage artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: frontend-coverage
           path: frontend/coverage
