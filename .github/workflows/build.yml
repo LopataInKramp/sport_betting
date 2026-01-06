@@ -113,6 +113,8 @@ jobs:
           context: ./frontend
           file: ./frontend/Dockerfile
           push: true
+          build-args: |
+            VITE_BACKEND_URL=${{ secrets.BACKEND_URL }}
           tags: ${{ secrets.DOCKER_USERNAME }}/frontend:${{ github.sha }},${{ secrets.DOCKER_USERNAME }}/frontend:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
