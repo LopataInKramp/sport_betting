@@ -6,7 +6,7 @@ ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY ./ ./
 RUN npm ci
 
 COPY . .
