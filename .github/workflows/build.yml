@@ -67,15 +67,13 @@ jobs:
         working-directory: ./backend
         run: npm ci
 
-      - name: Build backend
-        working-directory: ./backend
-        run: npm run build
-
       - name: Upload backend build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: backend-build-${{ github.sha }}
-          path: backend/dist/
+          path: |
+                backend/
+                !backend/dist/
           retention-days: 30
           if-no-files-found: error
 
