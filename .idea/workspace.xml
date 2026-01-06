@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="fixed backend build.yml">
-      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="added dockerfile for frontend">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1764773572674" duration="103000" />
       <workItem from="1764773692526" duration="1032000" />
       <workItem from="1765380833235" duration="8081000" />
-      <workItem from="1767730690389" duration="4239000" />
+      <workItem from="1767730690389" duration="4617000" />
     </task>
     <task id="LOCAL−00001" summary="nekaj">
       <option name="closed" value="true" />
@@ -207,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767739252491</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added dockerfile for frontend">
+      <option name="closed" value="true" />
+      <created>1767739532226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767739532226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +246,8 @@
     <MESSAGE value="pipline" />
     <MESSAGE value="fixed paths" />
     <MESSAGE value="fixed backend build.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed backend build.yml" />
+    <MESSAGE value="added dockerfile for frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dockerfile for frontend" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
