@@ -22,3 +22,5 @@ frontend/.idea
 *.njsproj
 *.sln
 *.sw?
+.vercel
+.env*.local
