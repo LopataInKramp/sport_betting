@@ -22,22 +22,24 @@ jobs:
       - name: Cache frontend dependencies
         uses: actions/cache@v3
         with:
-          path: node_modules
+          path: frontend/node_modules
           key: ${{ runner.os }}-frontend-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-frontend-
 
       - name: Install frontend dependencies
+        working-directory: ./frontend
         run: npm ci
 
       - name: Build frontend
+        working-directory: ./frontend
         run: npm run build
 
       - name: Upload frontend build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: frontend-build-${{ github.sha }}
-          path: dist/
+          path: frontend/dist/
           retention-days: 30
           if-no-files-found: error
 
@@ -110,8 +112,8 @@ jobs:
       - name: Build and push frontend Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./frontend
+          file: ./frontend/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/frontend:${{ github.sha }},${{ secrets.DOCKER_USERNAME }}/frontend:latest
           cache-from: type=gha
@@ -145,7 +147,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: frontend-build-${{ github.sha }}
-          path: dist/
+          path: frontend/dist/
 
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
