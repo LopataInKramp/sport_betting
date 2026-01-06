@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="defaultdb@localhost">
-  <database-model serializer="dbm" dbms="COCKROACH" family-id="COCKROACH" format-version="4.53">
+  <database-model serializer="dbm" dbms="COCKROACH" family-id="COCKROACH" format-version="4.54">
     <root id="1">
       <DateStyle>mdy</DateStyle>
       <Grants>1||1546506610|c|G
