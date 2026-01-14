@@ -10,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc686b7f-abbd-4617-b757-19707eb80fba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc686b7f-abbd-4617-b757-19707eb80fba.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +22,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Dockerfile" />
         <option value="JavaScript File" />
         <option value="JSX File" />
         <option value="HTML File" />
         <option value="GitHub Workflow" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -70,6 +73,8 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "feature/pages",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "feature/pipeline",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -111,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -135,6 +140,7 @@
       <workItem from="1764773572674" duration="103000" />
       <workItem from="1764773692526" duration="1032000" />
       <workItem from="1765380833235" duration="8081000" />
+      <workItem from="1767730690389" duration="7420000" />
     </task>
     <task id="LOCAL−00001" summary="nekaj">
       <option name="closed" value="true" />
@@ -192,7 +198,63 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1765393351329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pipline">
+      <option name="closed" value="true" />
+      <created>1767732880604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767732880604</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed paths">
+      <option name="closed" value="true" />
+      <created>1767738553190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767738553190</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed backend build.yml">
+      <option name="closed" value="true" />
+      <created>1767739252491</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767739252491</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added dockerfile for frontend">
+      <option name="closed" value="true" />
+      <created>1767739532226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767739532226</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1767740277928</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767740277928</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1767741285243</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767741285243</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1767742758081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767742758081</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +283,12 @@
     <MESSAGE value="smal commit" />
     <MESSAGE value="CI" />
     <MESSAGE value="CIv4" />
-    <option name="LAST_COMMIT_MESSAGE" value="CIv4" />
+    <MESSAGE value="pipline" />
+    <MESSAGE value="fixed paths" />
+    <MESSAGE value="fixed backend build.yml" />
+    <MESSAGE value="added dockerfile for frontend" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
