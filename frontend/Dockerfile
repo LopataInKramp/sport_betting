@@ -7,7 +7,7 @@ ENV VITE_BACKEND_URL=$VITE_BACKEND_URL
 WORKDIR /app
 
 COPY ./ ./
-RUN npm ci
+RUN npm ci --ignore-scripts
 
 COPY . .
 RUN npm run build
