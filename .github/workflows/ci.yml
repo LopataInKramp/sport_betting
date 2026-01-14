@@ -27,7 +27,7 @@ jobs:
       - name: Install backend deps
         run: |
           cd backend
-          npm ci
+          npm ci --ignore-scripts
 
       - name: Run backend tests with coverage
         run: |
@@ -47,7 +47,7 @@ jobs:
       - name: Install frontend deps
         run: |
           cd frontend
-          npm ci --legacy-peer-deps
+          npm ci --legacy-peer-deps --ignore-scripts
 
       - name: Run frontend tests with coverage
         run: |
