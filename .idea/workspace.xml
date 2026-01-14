@@ -4,32 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="userPage">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routs/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routs/bets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cockroach/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/vite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/react.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.js" afterDir="false" />
+    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="CIv4">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/pages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc686b7f-abbd-4617-b757-19707eb80fba.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc686b7f-abbd-4617-b757-19707eb80fba.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e89c5636-1b82-4ec5-9659-0658c1f2decb" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +22,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
-        <option value="Dockerfile" />
         <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="HTML File" />
+        <option value="GitHub Workflow" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/pipeline" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -64,6 +54,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/frontend/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -74,11 +67,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feature/pages",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "feature/pipeline",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +83,7 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.npm dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -118,7 +116,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.143" />
       </set>
     </attachedChunks>
   </component>
@@ -136,7 +134,13 @@
       <workItem from="1760626922238" duration="4791000" />
       <workItem from="1760640781051" duration="647000" />
       <workItem from="1761124214278" duration="13940000" />
-      <workItem from="1761216500360" duration="17366000" />
+      <workItem from="1761216500360" duration="19663000" />
+      <workItem from="1764772710140" duration="539000" />
+      <workItem from="1764773262330" duration="61000" />
+      <workItem from="1764773572674" duration="103000" />
+      <workItem from="1764773692526" duration="1032000" />
+      <workItem from="1765380833235" duration="8081000" />
+      <workItem from="1767730690389" duration="7420000" />
     </task>
     <task id="LOCAL−00001" summary="nekaj">
       <option name="closed" value="true" />
@@ -152,7 +156,105 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1760634562015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="smal commit">
+      <option name="closed" value="true" />
+      <created>1761242468816</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1761242468816</updated>
+    </task>
+    <task id="LOCAL−00004" summary="smal commit">
+      <option name="closed" value="true" />
+      <created>1761242506504</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1761242506504</updated>
+    </task>
+    <task id="LOCAL−00005" summary="CI">
+      <option name="closed" value="true" />
+      <created>1765392856457</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1765392856457</updated>
+    </task>
+    <task id="LOCAL−00006" summary="CI">
+      <option name="closed" value="true" />
+      <created>1765393029317</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1765393029317</updated>
+    </task>
+    <task id="LOCAL−00007" summary="CIv4">
+      <option name="closed" value="true" />
+      <created>1765393251485</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1765393251485</updated>
+    </task>
+    <task id="LOCAL−00008" summary="CIv4">
+      <option name="closed" value="true" />
+      <created>1765393351329</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1765393351329</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pipline">
+      <option name="closed" value="true" />
+      <created>1767732880604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767732880604</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed paths">
+      <option name="closed" value="true" />
+      <created>1767738553190</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767738553190</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fixed backend build.yml">
+      <option name="closed" value="true" />
+      <created>1767739252491</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767739252491</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added dockerfile for frontend">
+      <option name="closed" value="true" />
+      <created>1767739532226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767739532226</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1767740277928</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1767740277928</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1767741285243</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1767741285243</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1767742758081</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1767742758081</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +280,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nekaj" />
     <MESSAGE value="userPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="userPage" />
+    <MESSAGE value="smal commit" />
+    <MESSAGE value="CI" />
+    <MESSAGE value="CIv4" />
+    <MESSAGE value="pipline" />
+    <MESSAGE value="fixed paths" />
+    <MESSAGE value="fixed backend build.yml" />
+    <MESSAGE value="added dockerfile for frontend" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
