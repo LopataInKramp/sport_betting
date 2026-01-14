@@ -95,7 +95,7 @@ jobs:
       needs: [ sonarcloud ]
       steps:
         - name: SonarQube Quality Gate check
-          uses: sonarsource/sonarqube-quality-gate-action@ba3875ecf642b2129de2b589510c81a8b53dbf4e
+          uses: sonarsource/sonarqube-quality-gate-action@cb3ed20f9fec62b4c3b8ad9e77656c6adaade913
           timeout-minutes: 5
           env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
