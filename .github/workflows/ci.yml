@@ -85,7 +85,7 @@ jobs:
           path: frontend/coverage
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@master
+        uses: SonarSource/sonarcloud-github-action@v5.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
@@ -95,7 +95,7 @@ jobs:
       needs: [ sonarcloud ]
       steps:
         - name: SonarQube Quality Gate check
-          uses: sonarsource/sonarqube-quality-gate-action@master
+          uses: sonarsource/sonarqube-quality-gate-action@v5.0.0
           timeout-minutes: 5
           env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
